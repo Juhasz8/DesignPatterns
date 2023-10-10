@@ -7,7 +7,8 @@ Patterns already covered:
 Factory method
 Abstract Factory
 Singleton
-
+Prototype
+Builder
 
 
 source links:
