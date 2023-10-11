@@ -6,7 +6,7 @@ public class SeaLogistics extends Logistics
 
     //Factory method that creates the object
     @Override
-    protected TransportI CreateLogistics()
+    protected ITransport CreateLogistics()
     {
         return new Ship();
     }

@@ -1,6 +1,6 @@
 import java.awt.*;
 
-public class Shape implements PrototypeI
+public class Shape implements IPrototype
 {
     protected int x, y;
     protected Color color;

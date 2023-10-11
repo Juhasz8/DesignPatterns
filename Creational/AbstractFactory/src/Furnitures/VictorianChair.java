@@ -1,7 +1,7 @@
 package Furnitures;
 
 //not a public class!
-class VictorianChair implements ChairI
+class VictorianChair implements IChair
 {
 
     @Override

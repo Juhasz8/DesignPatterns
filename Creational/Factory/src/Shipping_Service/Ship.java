@@ -1,7 +1,7 @@
 package Shipping_Service;
 
 //package protected class!
-class Ship implements TransportI
+class Ship implements ITransport
 {
 
     @Override

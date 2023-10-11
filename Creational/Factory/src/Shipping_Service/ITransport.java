@@ -1,6 +1,6 @@
 package Shipping_Service;
 
-public interface TransportI
+public interface ITransport
 {
     void Deliver();
 }

@@ -1,7 +1,7 @@
 package Furnitures;
 
 //not a public class!
-class ModernSofa implements SofaI
+class ModernSofa implements ISofa
 {
     @Override
     public void SitOn()

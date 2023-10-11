@@ -1,7 +1,7 @@
 package Furnitures;
 
 //not a public class!
-class ModernCoffeeTable implements CoffeeTableI
+class ModernCoffeeTable implements ICoffeeTable
 {
 
     @Override

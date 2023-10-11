@@ -2,7 +2,7 @@ package Builders;
 
 import Products.BasicHouse;
 
-public class BasicHouseBuilder implements BuilderI
+public class BasicHouseBuilder implements IBuilder
 {
     private BasicHouse result;
 

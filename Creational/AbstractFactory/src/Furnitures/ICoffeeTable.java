@@ -1,6 +1,6 @@
 package Furnitures;
 
-public interface CoffeeTableI
+public interface ICoffeeTable
 {
 
     void PutGlass();

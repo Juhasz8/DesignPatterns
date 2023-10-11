@@ -1,22 +1,22 @@
 package Furnitures;
 
-public class ModernFurnitureFactory implements FurnitureFactoryI
+public class ModernFurnitureFactory implements IFurnitureFactory
 {
 
     @Override
-    public ChairI CreateChair()
+    public IChair CreateChair()
     {
         return new ModernChair();
     }
 
     @Override
-    public CoffeeTableI CreateCoffeeTable()
+    public ICoffeeTable CreateCoffeeTable()
     {
         return new ModernCoffeeTable();
     }
 
     @Override
-    public SofaI CreateSofa()
+    public ISofa CreateSofa()
     {
         return new ModernSofa();
     }

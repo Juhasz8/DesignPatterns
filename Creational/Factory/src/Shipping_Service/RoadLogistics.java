@@ -6,7 +6,7 @@ public class RoadLogistics extends Logistics
 
     //Factory method that creates the object
     @Override
-    public TransportI CreateLogistics()
+    public ITransport CreateLogistics()
     {
         return new Truck();
     }

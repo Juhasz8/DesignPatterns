@@ -1,22 +1,22 @@
 package Furnitures;
 
-public class VictorianFurnitureFactory implements FurnitureFactoryI
+public class VictorianFurnitureFactory implements IFurnitureFactory
 {
 
     @Override
-    public ChairI CreateChair()
+    public IChair CreateChair()
     {
         return new VictorianChair();
     }
 
     @Override
-    public CoffeeTableI CreateCoffeeTable()
+    public ICoffeeTable CreateCoffeeTable()
     {
         return new VictorianCoffeeTable();
     }
 
     @Override
-    public SofaI CreateSofa()
+    public ISofa CreateSofa()
     {
         return new VictorianSofa();
     }

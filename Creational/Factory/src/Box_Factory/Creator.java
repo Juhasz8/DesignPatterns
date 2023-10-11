@@ -5,9 +5,9 @@ public abstract class Creator
 
     public void SendPackage()
     {
-        ProductI product = CreateProduct();
+        IProduct product = CreateProduct();
         System.out.println("Package sent!");
     }
 
-    protected abstract ProductI CreateProduct();
+    protected abstract IProduct CreateProduct();
 }

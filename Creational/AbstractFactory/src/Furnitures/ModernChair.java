@@ -1,7 +1,7 @@
 package Furnitures;
 
 //not a public class!
-class ModernChair implements ChairI
+class ModernChair implements IChair
 {
 
     @Override

@@ -21,12 +21,12 @@ public class Main
     public static void main(String[] args)
     {
         System.out.println("---Furnitures:---");
-        FurnitureFactoryI furnitureFactory = new VictorianFurnitureFactory();
+        IFurnitureFactory furnitureFactory = new VictorianFurnitureFactory();
         //FurnitureFactoryI furnitureFactory = new ModernFurnitureFactory();
 
-        ChairI myChair = furnitureFactory.CreateChair();
-        CoffeeTableI myTable = furnitureFactory.CreateCoffeeTable();
-        SofaI mySofa = furnitureFactory.CreateSofa();
+        IChair myChair = furnitureFactory.CreateChair();
+        ICoffeeTable myTable = furnitureFactory.CreateCoffeeTable();
+        ISofa mySofa = furnitureFactory.CreateSofa();
 
         myChair.SitOn();
         myTable.PutGlass();

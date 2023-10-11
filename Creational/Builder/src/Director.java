@@ -1,4 +1,4 @@
-import Builders.BuilderI;
+import Builders.IBuilder;
 import Types.BasicHouseTypes;
 
 ;
@@ -8,7 +8,7 @@ public class Director
 
     //instead of having one method with enum type parameters,
     //we could also have multiple methods for the different types
-    public void BuildHouseOrBlueprint(BuilderI builder, BasicHouseTypes houseType)
+    public void BuildHouseOrBlueprint(IBuilder builder, BasicHouseTypes houseType)
     {
         switch (houseType)
         {
@@ -36,7 +36,7 @@ public class Director
     }
 
     //instead of making fancyHouse a type of BasicHouseType:
-    public void BuildFancyHouse(BuilderI builder)
+    public void BuildFancyHouse(IBuilder builder)
     {
         builder.BuildWalls();
         builder.BuildDoors(6);

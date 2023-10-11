@@ -5,7 +5,7 @@ public class BoxCreator extends Creator
 
     //Factory method that creates the object
     @Override
-    public ProductI CreateProduct()
+    public IProduct CreateProduct()
     {
         return new BoxProduct();
     }

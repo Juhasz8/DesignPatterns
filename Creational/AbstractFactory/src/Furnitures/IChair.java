@@ -1,8 +1,8 @@
 package Furnitures;
 
-public interface SofaI
+public interface IChair
 {
+    void HasLegs();
 
     void SitOn();
-
 }

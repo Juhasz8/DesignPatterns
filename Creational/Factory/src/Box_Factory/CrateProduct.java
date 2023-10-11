@@ -1,7 +1,7 @@
 package Box_Factory;
 
 //package protected class!
-class CrateProduct implements ProductI
+class CrateProduct implements IProduct
 {
     public CrateProduct()
     {

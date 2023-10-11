@@ -36,7 +36,7 @@ public class Main
         boxCreator.SendPackage();
 
         CrateCreator crateCreator = new CrateCreator();
-        ProductI Product2 = crateCreator.CreateProduct();
+        IProduct Product2 = crateCreator.CreateProduct();
         System.out.println("------");
 
         System.out.println("---Shipping_Service!---");

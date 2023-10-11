@@ -1,6 +1,6 @@
 package Builders;
 
-public interface BuilderI
+public interface IBuilder
 {
     void Reset();
 

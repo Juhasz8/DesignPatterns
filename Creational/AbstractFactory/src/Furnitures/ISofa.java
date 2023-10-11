@@ -1,8 +1,8 @@
 package Furnitures;
 
-public interface ChairI
+public interface ISofa
 {
-    void HasLegs();
 
     void SitOn();
+
 }
