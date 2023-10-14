@@ -2,7 +2,8 @@
 ----------------
 Patterns already covered:
 
-(Creational)
+(Creational) 
+8/10
 
 Factory method
 Abstract Factory
@@ -11,6 +12,7 @@ Prototype
 Builder
 Multiton
 Lazy Loading
+RAII
 
 
 General Sources:
@@ -20,3 +22,6 @@ https://refactoring.guru/design-patterns/java
 Additional:
 https://en.wikipedia.org/wiki/Semaphore_(programming)
 https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/Semaphore.html
+
+Try-with-resouces:
+https://docs.oracle.com/javase/tutorial/essential/exceptions/tryResourceClose.html
