@@ -3,7 +3,7 @@
 Patterns already covered:
 
 (Creational) 
-9/10
+10/10!
 
 Factory method
 Abstract Factory
@@ -14,6 +14,7 @@ Multiton
 Lazy Loading
 RAII
 Object Pooling
+Dependency Injection
 
 
 General Sources:
@@ -21,7 +22,7 @@ https://en.wikipedia.org/wiki/Software_design_pattern
 https://refactoring.guru/design-patterns/java
 https://sourcemaking.com/design_patterns/
 
-Additional:
+Semaphore:
 https://en.wikipedia.org/wiki/Semaphore_(programming)
 https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/Semaphore.html
 
