@@ -29,13 +29,16 @@ public class Main
         //creating a new Circle Object // this probably isn't on the client side
         Circle myCircle = new Circle(15, 6, Color.blue, 7);
 
+        //Client's Should not need to downcast: !!!
+        //Rectangle rectangleCopy = (Rectangle) myRect.Clone();
+
         //"rectangleCopy" contains an exact copy of the "myRect" object
-        Rectangle rectangleCopy = (Rectangle) myRect.Clone();
+        Shape rectangleCopy = myRect.Clone();
         //printing the properties of the cloned rectangle to see if they match with the original one
         System.out.println("Rectangle copy: " + rectangleCopy.toString());
 
         //"circleCopy" contains an exact copy of the "myCircle" object
-        Circle circleCopy = (Circle) myCircle.Clone();
+        Shape circleCopy = myCircle.Clone();
         //printing the properties of the cloned circle to see if they match with the original one
         System.out.println("Circle copy: " + circleCopy.toString());
 

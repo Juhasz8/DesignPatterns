@@ -19,6 +19,13 @@ public class Shape implements IPrototype
         this.color = color;
     }
 
+    //overwriting toString just for debugging/showcase purposes
+    @Override
+    public String toString()
+    {
+        return "I am just a shape";
+    }
+
     @Override
     public Shape Clone()
     {
